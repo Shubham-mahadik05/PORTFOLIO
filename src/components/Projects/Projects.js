@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Lost & Found Portal"
+              description="A campus Lost & Found Portal built with Node.js, deployed on Vercel, and using Firebase as the database. Enables users to report, search, and track lost or found items efficiently with a responsive and user-friendly interface."
+              ghLink="https://github.com/Shubham-mahadik05/LOST_FOUND_PORTAL-"
+              demoLink="https://lost-found-portal-git-main-shubhams-projects-c333bdcf.vercel.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Credit Card Fraud Detection System"
+              description="A Credit Card Fraud Detection System that uses machine learning to detect fraudulent transactions. Built with Python and integrated tools for data preprocessing, model training, and evaluation to ensure high accuracy and real-time detection."
+              ghLink="https://github.com/Shubham-mahadik05/Credit-Card-Fraud-Detection"
+              demoLink="https://github.com/Shubham-mahadik05/Credit-Card-Fraud-Detection/blob/main/Credit-Card-Fraudlent/Credit-Card-Fraudlent-master/Anamoly%20Detection.ipynb"
             />
           </Col>
 
@@ -47,14 +47,14 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Online Exam System"
+              description="An online examination system built with html, css , php , js  and bootstrap Framework . It allows users to take exams, view results, and manage their profiles. The system includes features like real-time monitoring, question randomization, and a user-friendly interface."
+              ghLink="https://github.com/Shubham-mahadik05/Online-Exam-System"
+              demoLink=""              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
